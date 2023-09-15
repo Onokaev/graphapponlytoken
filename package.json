@@ -10,7 +10,8 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:graphapponlytoken.generateToken"
+    "onCommand:graphapponlytoken.generateToken",
+    "onUri:graphapponlytoken"
   ],
   "main": "./dist/extension.js",
   "contributes": {
