@@ -2,7 +2,7 @@
   "name": "graphapponlytoken",
   "displayName": "GraphAppOnlyToken",
   "description": "Simple auth token generator for app only calls",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.82.0"
   },
