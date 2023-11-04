@@ -30,6 +30,9 @@ export function activate(context: vscode.ExtensionContext) {
 						vscode.window.showInformationMessage('Token copied to clipboard');
 						return;
 					}
+					else{
+						vscode.window.showErrorMessage('Failed to get token. Check your credentials and try again');
+					}
 				}
 			}
 		}),
